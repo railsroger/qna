@@ -3,7 +3,7 @@ FactoryBot.define do
     title { "MyString" }
   end
 
-  trait :invalid do
+  trait :invalid_answer do
     title { nil }
   end
 end
